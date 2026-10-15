@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <?php include("nav.php"); ?>
-        <h1>Hello, world!</h1>
+        <h1>Hello, class!</h1>
           <div class="row row-cols-2 row-cols-md-4 row-cols-xl-12  g-4">
             <?php for ($x = 0; $x <= 10; $x++):?>
               <div class="col">
