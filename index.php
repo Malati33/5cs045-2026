@@ -93,6 +93,26 @@ h1{
     text-decoration:none;
     border-radius:5px;
 }
+.searching{
+    text-align:center;
+    margin:20px;
+}
+
+.searching input[type="text"]{
+    padding:10px;
+    width:300px;
+    border:none;
+    border-radius:8px;
+}
+
+.searching input[type="submit"]{
+    padding:10px 20px;
+    background:#06d6a0;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
 </style>
 
 </head>
@@ -100,9 +120,18 @@ h1{
 
 <h1>🎬 Animation Collection</h1>
 
+
+
 <a href="add.php" class="addbtn">
 ➕ Add Animation
 </a>
+
+<div class = "searching">
+      <form action="search-animations.php" method="post">
+        <input type="text" name="keywords" placeholder="Search Animations">
+        <input type="submit" value="Go!">
+     </form>
+    </div>
 
 <div class="container">
 
